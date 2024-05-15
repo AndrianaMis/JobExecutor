@@ -1,0 +1,4 @@
+touch myFile.txt
+./jobCommander issueJob ls -l
+./jobCommander issueJob rm myFile.txt
+

@@ -1,0 +1,8 @@
+./jobCommander issueJob touch random.txt
+./jobCommander issueJob wget aUrl
+./jobCommander stop job_4
+./jobCommander setConcurrency 4
+./jobCommander poll queued
+./jobCommander issueJob cat includes/queue.h
+./jobCommander exit
+./jobCommander setConcurrency 1
